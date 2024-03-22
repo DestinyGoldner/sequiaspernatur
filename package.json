@@ -1,0 +1,44 @@
+{
+  "name": "sequiaspernatur",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=16.13.1"
+  },
+  "author": "GuadalupeJohnston",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.10.1",
+    "ali-oss": "^6.16.0",
+    "babel-loader": "^8.2.5",
+    "chalk": "^2.3.2",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "fs-extra": "^10.1.0",
+    "husky": "^8.0.1",
+    "loader-utils": "^2.0.2",
+    "prettier": "^2.5.1",
+    "rimraf": "^2.6.2",
+    "ts-loader": "^9.3.1",
+    "typescript": "4.2.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@authing/miniprogram-jsencrypt": "file:packages/miniprogram-jsencrypt",
+    "@authing/miniprogram-wx": "file:packages/miniprogram-wx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DestinyGoldner/sequiaspernatur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DestinyGoldner/sequiaspernatur.git/issues"
+  },
+  "version": "1.0.0"
+}
